@@ -45,6 +45,12 @@ body{
     font-weight: 600;
     font-size: 1.3rem;
   }
+
+  .nav-links a:hover {
+    color: var(--Desaturated-Blue);
+    transition: .5s ease;
+  }
+
   @media (max-width: 600px) {
     .nav-links {
       flex-wrap: wrap;
@@ -114,10 +120,16 @@ body{
 .btn{
       padding: 10px 20px;
       border: none;
+      font-size: 1rem;
+      font-weight: 700;
       border-radius: 5px;
       background-color: var(--Bright-Blue);
       color: white;
       cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(18, 18, 209);
 }
 
 @media (min-width: 1280px){
@@ -376,7 +388,7 @@ body{
 
 .logo__foter img{
     fill: white;
-    padding-left: 3rem;
+    
 }
 
 
@@ -425,6 +437,10 @@ body{
     color: white;
 }
 
+.footer__image{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
+
 
 
 @media (min-width: 1280px){
@@ -441,6 +457,10 @@ body{
 
     .navigate{
         justify-content: space-evenly;
+    }
+
+    .logo__foter img{
+        padding-left: 3rem;
     }
 
     .navigate,
