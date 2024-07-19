@@ -19,11 +19,15 @@ body{
     font-family: 'Raleway';
 }
 
+.top{
+    background-color: grey;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 2rem 5rem;
     background-color: white;
   }
   .logo {
@@ -410,7 +414,7 @@ body{
 .navigate{
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
     padding-top: 1.5rem;
 }
 
@@ -457,6 +461,7 @@ body{
 
     .navigate{
         justify-content: space-evenly;
+        gap: 5rem;
     }
 
     .logo__foter img{
