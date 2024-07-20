@@ -171,7 +171,7 @@ body{
 }
 
 .article__container{
-    padding-top: 4rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
@@ -287,8 +287,8 @@ body{
       .article__container{
         flex-direction: row-reverse;
         gap: 3rem;
-        max-width: 90%;
-        margin: auto;
+        padding-left: 4rem;
+        padding-right: 4rem;
       }
 
       .heading,
