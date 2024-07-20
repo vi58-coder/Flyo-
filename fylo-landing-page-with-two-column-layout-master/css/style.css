@@ -170,18 +170,20 @@ body{
    
 }
 
-.article{
+.article__container{
     padding-top: 4rem;
-    margin-top: 4rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
     background-color: var(--Light-Grayish-Blue);
 }
 
-.article__container{
-    display: flex;
-
-    flex-direction: column;
-    background-image: url('images/bg-curve-mobile');
-    padding-bottom: 3rem;
+.article{
+    background-image: url(../images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
 }
 
 .illus{
@@ -281,9 +283,7 @@ body{
 
   @media (min-width: 1280px){
 
-    .article{
-        padding-top: 3rem;
-    }
+   
       .article__container{
         flex-direction: row-reverse;
         gap: 3rem;
